@@ -4,7 +4,6 @@
 public class MainClass {
     public static void main(String[] args) {
         String[][] test = {{"23", "3", "35", "34"}, {"67", "34", "434", "34"}, {"6", "77", "12", "90"}, {"23", "45", "34", "56"}};
-
         try {
             arrayCheck(test);
             stringToInt(test);
