@@ -1,11 +1,23 @@
 /**
  * Created by smeleyka on 26.04.17.
  */
-public class MyArrayDataException extends NumberFormatException{
+public class MyArrayDataException extends Exception{
     public MyArrayDataException() {
     }
 
-    public MyArrayDataException(String s) {
-        super(s);
+    public MyArrayDataException(String message) {
+        super(message);
+    }
+
+    public MyArrayDataException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public MyArrayDataException(Throwable cause) {
+        super(cause);
+    }
+
+    public MyArrayDataException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
     }
 }
